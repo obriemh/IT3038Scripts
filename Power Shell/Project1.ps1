@@ -1,4 +1,6 @@
 ﻿#Just for context I wrote this script with the intention of using it for my upcoming server patch so the pathways in this version have been simplified. 
+#The end user would need folders to match the serverlist, outfile, and filename otherwise it will not run properly. 
+# Servers1.txt has my servers line by line in the .txt document. To emulate this simply add your hostname and the script will treat it like an array. 
 
 $ServerList = Get-Content "C:\Project\Servers1.txt" 
 $outfile = "C:\Project\PatchVerification.csv"
